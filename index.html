@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Racers' Club</title>
+</head>
+<body>
+    <div class="navbar-header">
+
+      <div id="mobile-menu-icon-logo-wrapper">  
+        <div id="menu-icon-wrapper">
+            <img id="mobile-menu-icon" src="https://img.icons8.com/material-sharp/50/000000/menu--v3.png"/>
+        </div>
+        <div id="mobile-race-track">
+            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-race-snowboarding-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+        </div>
+        <div id="mobile-logo-wrapper">
+            <img id="mobile-logo" class="logo" src="images/logo.jpg" alt="logo">
+        </div>
+    </div>
+    <div id="mobile-menu">
+      <nav id="navbar-mobile">
+         <img id="mobile-close-icon" src="https://img.icons8.com/material-rounded/48/000000/delete-sign.png"/>
+          <ul>
+            <a href="#"><li>My Account</li></a>
+            <a href="#"><li>Race Cars</li></a>
+            <a href="#"><li>Location</li></a>
+            <a href="#"><li>Events</li></a>
+            </ul>
+         </nav>
+        </div>
+      <nav class="navbar-desktop">
+        <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Race Cars</a></li>
+            <li><img class="logo" src="images/logo.jpg" alt="logo"></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Events</a></li>
+        </ul>
+    </nav>
+</div>
+<main id="main">
+    <!-- banner section -->
+     <div id="banner">
+         <div id="banner-mission-div">
+             <h1 id="banner-missin-heading">Join us for an exciting lifetime experience</h1>
+             <input id="join-btn"type="submit" name="submit" value="Join Us">
+         </div>
+     </div>
+   <!-- our cars section -->
+
+   <div id="our-cars-wrapper">
+     <div id="our-cars-div">
+        <div><figcaption>Honda</figcaption><img class="car-images" src="images/honda.jpg" alt="honda"></div>
+        <div><figcaption>McLaren</figcaption><img class="car-images" src="images/mclaren.jpg" alt="mclaren"></div>
+        <div><figcaption>Mercedes Benz</figcaption><img  class="car-images" src="images/mercedes.jpg" alt="mercedes"></div>
+        <div><figcaption>BMW</figcaption><img  class="car-images" src="images/bmw-i8-race-car.jpg" alt="bmw"><div id="more-wrapper"><a  id="more" href="#">Show More</a></div></div> 
+        <div id="our-cars-div-two">
+        <div><figcaption>Aston Martin</figcaption><img class="car-images" src="images/Aston_Martin.jpg" alt="astonMartin"></div>
+        <div><figcaption>Ferrari</figcaption><img class="car-images" src="images/ferrari.jpg" alt="ferrari"></div>
+        <div><figcaption>Porsche</figcaption><img  class="car-images" src="images/porsche.jpg" alt="porsche"></div>
+        <div><figcaption>Toyota</figcaption><img  class="car-images" src="images/toyota.jpg" alt="toyota"><div id="less-wrapper"><a id="less" href="#">Show Less</a></div></div>      
+     </div>
+    </div>
+ 
+     <div id="our-cars-select-div">
+         <figcaption>Select a Car</figcaption>
+         <select class="select-items" name="cars" id="cars">
+             <option class="select-options" value="McLaren">McLaren</option>
+             <option class="select-options" value="bmw">BMW</option>
+             <option class="select-options" value="mercedesBenz">Mercedes Benz</option>
+             <option class="select-options" value="honda">Honda</option>
+             <option class="select-options" value="Aston Martin">Aston Martin</option>
+             <option class="select-options" value="Porsche">Porsche</option>
+             <option class="select-options" value="ferrari">Ferrari</option>
+             <option class="select-options" value="toyota">Toyota</option>
+         </select>
+         <figcaption>Select an Event</figcaption>
+         <select class="select-items" name="cars" id="events">
+            <option class="select-options" value="weekendMorningEvent">Weekend Morning Event(9am)</option>
+            <option class="select-options" value="weekdayMorningEvent">Weekday Morning Event(9am)</option>
+            <option class="select-options" value="weekendAfternoonEvent">Weekend Afternoon Event(2pm)</option>
+            <option class="select-options" value="weekdayAfternoonEvent">Weekday Afternoon Event(2pm)</option>
+            <option class="select-options" value="weekendEveningEvent">Weekend Evening Event(6pm)</option>
+            <option class="select-options" value="weekdayEveningEvent">Weekday Evening Event(6pm)</option>
+           
+        </select>
+        <figcaption>Select a Date</figcaption>
+        <input class="select-items select-options" type="date" name="event date" placeholder="Select Date" >
+     </div>  
+  </div>   
+ </div>
+</main>
+ <!-- location section -->
+<div id="location">
+    <h2 id="location-heading">We meet every day at:<br> <span id="location-name">High Edge Raceway</span></h2>
+    <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222121.997491404!2d-3.252683701270664!3d53.25447022494197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a30b9ba62854b%3A0x643eccda774abe13!2sHigh%20Edge%20Raceway!5e0!3m2!1sen!2suk!4v1639499279896!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</main>
+<footer>
+    <div id="footer-heading">
+      <h3>We are in Partnership with</h3>
+    </div>
+    <div id="footer-car-logo-div">
+        <img class="logos" src="images/toyotaLogo.jpg" alt="toyota logo">
+        <img class="logos" src="images/ferrariLogo.png" alt="ferrari logo">
+        <img class="logos" src="images/hondaLogo.png" alt="honda logo">
+        <img class="logos" src="images/mclarenLogo.png" alt="mclaren logo">
+        <img class="logos" src="images/mercedesLogo.png" alt="mercedes logo">
+        <img class="logos" src="images/astonMartinLogo.png" alt="aston martin logo">
+        <img class="logos" src="images/bmwLogo.png" alt="bmw logo">
+        <img class="logos" src="images/porscheLogo.jpg" alt="porsche logo">
+    </div>
+    <div id="copyright">
+        <p>&copy; 2021 Created by Ruzanna</p>
+    </div>
+</footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
