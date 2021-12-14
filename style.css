@@ -67,6 +67,7 @@
 }
 #mobile-menu-icon-logo-wrapper {
     display: none;
+
 }
 #mobile-close-icon {
     display: none;
@@ -76,7 +77,7 @@
     display: none; 
 }
 #navbar-mobile ul a li{
-    width: 100%;
+    max-width: 80%;
     line-height: 2;
     font-size: 1.5em;
     color: #fff;   
@@ -162,7 +163,6 @@
     justify-content: space-around;
     align-content: stretch;
     flex-wrap: wrap;
-    padding: 2.5em 2em .5em 2em;
 }
 #more-wrapper{
     width: 10em;
@@ -310,9 +310,9 @@ footer {
     #mobile-menu-icon-logo-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
-        padding: 1em;
+        padding: .5em;
     }
     #navbar-mobile{
         display: block;
@@ -332,7 +332,10 @@ footer {
     }
    
 }
-@media only screen and (max-width: 677px) {
+@media only screen and (max-width: 660px) {
+    #banner-missin-heading {
+        font-size: 2em;
+    }
     #our-cars-wrapper  {
         flex-direction: column;
         justify-content: center;
@@ -355,9 +358,18 @@ footer {
         text-align: center;
     }
 }
-@media only screen and (max-width: 457px) {
+@media only screen and (max-width: 467px) {
+    #mobile-race-track {
+        display: none;
+    }
+ 
     #location-map {
         width: 250px;
         height: 200px;
+    }
+    .car-images {
+        width: 12em;
+        height: 8em; 
+    
     }
 }
