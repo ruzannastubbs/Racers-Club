@@ -340,6 +340,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
+    #our-cars-div {
+        margin: 0;
+        padding: 0.5em 0;
     }
     #our-cars-select-div {
         height: 15em;
@@ -367,9 +372,9 @@ footer {
         width: 250px;
         height: 200px;
     }
-    .car-images {
+    /* .car-images {
         width: 12em;
         height: 8em; 
     
-    }
+    } */
 }
