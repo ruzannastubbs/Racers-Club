@@ -178,8 +178,8 @@
     flex-wrap: wrap;
 }
 .car-images {
-    width: 20em;
-    height: 16em; 
+    width: 23.5em;
+    height: 18em; 
     margin-bottom: .8em;
     border-radius: .3em;
     box-shadow: 4px 4px 2px rgba(16, 31, 116, 0.7);
@@ -226,6 +226,7 @@
 
 /* check availability section */
 #our-cars-select-div {
+    width: 25em;
     height: 17em;
     line-height: 2;
     border: 2px solid rgba(16, 43, 116, 0.7);
@@ -234,6 +235,9 @@
     background-color: rgba(16, 39, 116, 0.24);
 }
 figcaption {
+    text-shadow: 2px 2px 2px rgba(16, 31, 116, 0.7);
+}
+label {
     text-shadow: 2px 2px 2px rgba(16, 31, 116, 0.7);
 }
 .select-items {
@@ -292,7 +296,6 @@ figcaption {
 }
 #location-map {
     border-radius: .5em;
-
 }
 
 /* footer logo section */
@@ -361,9 +364,6 @@ footer {
     #location {
         flex-direction: column;
     }
-   
-}
-@media only screen and (max-width: 660px) {
     #banner-mission-heading {
         font-size: 2em;
     }
@@ -372,17 +372,22 @@ footer {
         justify-content: center;
         align-items: center;   
     }
+    .car-images {
+        width: 22em;
+        height: 17.5em; 
+    }
     #our-cars-div {
         margin: 0;
         padding: 0.5em 0;
     }
     #our-cars-select-div {
+        width: 22em;
         height: 17.5em;
         margin-bottom: 2em;
     }
     #location-map {
-        width: 450px;
-        height: 300px;
+        width: 22em;
+        height: 18em;
     }
     #location-heading {
         font-size: 1.5em;
@@ -392,18 +397,23 @@ footer {
         font-size: 1.6em;
         text-align: center;
     }
-}
+}  
+
 @media only screen and (max-width: 467px) {
     #mobile-race-track {
         display: none;
     }
- 
     #location-map {
-        width: 250px;
-        height: 200px;
+        width: 17em;
+        height: 14em;
     }
     .car-images {
-        width: 17em;
-        height: 13.5em; 
+        width: 16em;
+        height: 14em; 
+    }
+    #our-cars-select-div {
+        width: 16em;
+        height: 17em;
+        margin-bottom: 2em;
     }
 }
