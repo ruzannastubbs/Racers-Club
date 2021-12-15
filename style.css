@@ -5,7 +5,7 @@
 }
 
 /* desktop menu */
-.navbar-header {
+header {
     width: 100%;
     background: #a9c52f linear-gradient(
         to bottom,
@@ -149,7 +149,7 @@
 }
 
 /* our cars section */
-#main {
+main {
     height: auto;
     background-color: rgb(245, 237, 176); 
 }
