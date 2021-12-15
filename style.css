@@ -168,7 +168,7 @@
     justify-content: space-around;
     align-content: stretch;
     flex-wrap: wrap;
-    padding: 2.5em 2em .5em 2em;
+    padding: 2.5em 1em .5em 1em;
 }
 #our-cars-div-two {
     display: none;
