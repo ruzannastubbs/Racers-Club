@@ -7,12 +7,12 @@
 /* desktop menu */
 .navbar-header {
     width: 100%;
-    background: #5e76e4 linear-gradient(
+    background: #a9c52f linear-gradient(
         to bottom,
-        #0b3177,
-        #2b0fa8 calc(50% - 10px),
-        #0e36b8 calc(50% + 10px),
-        #1f59d6);
+        #9c8608,
+        #9c8607 calc(50% - 10px),
+        #bda209 calc(50% + 10px),
+        #ccaf0d);
     position: fixed;
 }
 .navbar-desktop {
@@ -33,7 +33,7 @@
     color: #fff;
 }
 .navbar-desktop ul li a:hover{
-    color: #f5ef77;
+    color: #080808;
     border-radius: .8em;
 }
 .logo{
@@ -49,12 +49,12 @@
     align-items: flex-start;
     padding: 1em;
     /* border: 1px solid rgba(185, 126, 126, 0.705); */
-    background:  #5e76e4 linear-gradient(
+    background: #a9c52f linear-gradient(
         to bottom,
-        #0b3177,
-        #2b0fa8 calc(50% - 10px),
-        #0e36b8 calc(50% + 10px),
-        #1f59d6);
+        #9c8608,
+        #9c8607 calc(50% - 10px),
+        #bda209 calc(50% + 10px),
+        #ccaf0d);
     position: absolute;
     top: 0;
 }
@@ -84,7 +84,7 @@
     border-radius: .2em;
     background-color: #1010642d;
     border-bottom: 1px solid rgba(147, 160, 236, 0.7);
-    color: #f5ef77;
+    color: #080808;
     box-shadow: rgba(16, 31, 116, 0.7);
 }
 #mobile-race-track {
@@ -127,14 +127,14 @@
 #join-btn:hover {
     border-bottom: 2px solid rgb(226, 218, 223);
     border-right: 2px solid  rgb(226, 218, 223);
-    background-color: #041135;
+    background-color: #5e5107;
     color: #fffcbf;
 }
 
 /* our cars section */
 #main {
     height: auto;
-    background-color: rgb(226, 218, 223); 
+    background-color: rgb(245, 237, 176); 
 }
 #our-cars-wrapper {
     width: 90%;
@@ -183,7 +183,7 @@
 }
 #more:hover {
     color: #fffcbf;
-    background-color: #041135;
+    background-color:  #5e5107;
     border-bottom: 2px solid rgb(162, 171, 189);
     border-right: 2px solid  rgb(162, 171, 189);
 }
@@ -202,7 +202,7 @@
 }
 #less:hover {
     color: #fffcbf;
-    background-color: #040d35;
+    background-color:  #5e5107;
     border-bottom: 2px solid rgb(162, 174, 189);
     border-right: 2px solid  rgb(162, 174, 189);
 }
@@ -230,7 +230,7 @@ figcaption {
     text-shadow: 2px 2px 2px rgba(16, 31, 116, 0.7);
 }
 .select-options:hover{
-    background-color: rgba(16, 34, 116, 0.7);
+    background-color:  #86740a;
     border-bottom: 2px solid rgb(189, 162, 179);
     text-shadow: 4px 4px 2px rgba(16, 31, 116, 0.7);
 }
@@ -240,13 +240,13 @@ figcaption {
     align-items: center;
     border-radius: .4em;
     color: #fff;
-    background-color: rgb(3, 52, 158);
+    background-color:  #574b07;
     border-bottom: 3px solid rgb(231, 234, 240);
     border-right: 3px solid  rgb(229, 232, 238);
 }
 .submit-btn:hover{
     color: #fffcbf;
-    background-color: rgba(2, 22, 53, 0.979);
+    background-color: #574b07;
     border-bottom: 2px solid rgb(189, 162, 179);
     text-shadow: 4px 4px 2px rgba(16, 31, 116, 0.7);
 }
@@ -258,7 +258,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     padding: 2.5em;
-    background-color: rgba(107, 128, 243, 0.7);
+    background-color: #d2eb65ef;
     
 }
 #location-heading {
@@ -280,12 +280,12 @@ figcaption {
 
 /* footer logo section */
 footer {
-    background: #1b41eb linear-gradient(
+    background: #beac0a linear-gradient(
         to bottom,
-        #2369eb,
-        #1e3bdb calc(50% - 10px),
-        #1b2dce calc(50% + 10px),
-        #052a79);
+        #e4e151d5,
+        #b49d17 calc(50% - 15px),
+        #9b860e calc(50% + 15px),
+        #726205);
 }
 #footer-heading {
     padding: .4em 2em;
