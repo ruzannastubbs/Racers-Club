@@ -67,11 +67,9 @@
 }
 #mobile-menu-icon-logo-wrapper {
     display: none;
-
 }
 #mobile-close-icon {
-    display: none;
-    
+    display: none; 
 }
 #navbar-mobile{
     display: none; 
@@ -90,7 +88,6 @@
     color: #9da2e4;
     box-shadow: #bb318da8;
 }
-
 #mobile-race-track {
     display: none;
 }
@@ -113,7 +110,7 @@
     padding-top: 3em;
     text-align: center;
 }
-#banner-missin-heading {
+#banner-mission-heading {
     font-size: 3em;
     line-height: 1.6;
     color: #fff;
@@ -137,8 +134,7 @@
 /* our cars section */
 #main {
     height: auto;
-    background-color: rgb(226, 218, 223);
-    
+    background-color: rgb(226, 218, 223); 
 }
 #our-cars-wrapper {
     width: 90%;
@@ -163,6 +159,13 @@
     justify-content: space-around;
     align-content: stretch;
     flex-wrap: wrap;
+}
+.car-images {
+    width: 20em;
+    height: 16em; 
+    margin-bottom: .8em;
+    border-radius: .3em;
+    box-shadow: 4px 4px 2px rgba(110,16,116,0.7);
 }
 #more-wrapper{
     width: 10em;
@@ -204,20 +207,15 @@
     border-bottom: 2px solid rgb(189, 162, 179);
     border-right: 2px solid  rgb(189, 162, 179);
 }
+
+/* check availability section */
 #our-cars-select-div {
-    height: 14em;
+    height: 17em;
     line-height: 2;
     border: 2px solid rgba(110,16,116,0.7);
     padding: .5em 0.3em;
-    margin-top: 2.7em;
-    background-color: rgba(109, 16, 116, 0.24);;
-}
-.car-images {
-    width: 16em;
-    height: 12em; 
-    margin-bottom: .8em;
-    border-radius: .3em;
-    box-shadow: 4px 4px 2px rgba(110,16,116,0.7);
+    margin-top: 3.5em;
+    background-color: rgba(109, 16, 116, 0.24);
 }
 figcaption {
     text-shadow: 2px 2px 2px rgba(110,16,116,0.7);
@@ -229,11 +227,25 @@ figcaption {
     background-color: rgb(241, 233, 238);;
 }
 .select-options {
-    background-color: rgba(204, 185, 206, 0.7);
+    background-color: rgb(239, 231, 240);
     text-shadow: 2px 2px 2px rgba(166, 36, 175, 0.7);
 }
 .select-options:hover{
     background-color: rgba(110,16,116,0.7);
+    border-bottom: 2px solid rgb(189, 162, 179);
+    text-shadow: 4px 4px 2px rgba(110,16,116,0.7);
+}
+.submit-btn {
+    padding: .2em;
+    margin-top: 2em;
+    align-items: center;
+    border-radius: .4em;
+    color: #fff;
+    background-color: rgb(140, 3, 158);
+}
+.submit-btn:hover{
+    color: #fdfdfd;
+    background-color: rgba(49, 2, 53, 0.979);
     border-bottom: 2px solid rgb(189, 162, 179);
     text-shadow: 4px 4px 2px rgba(110,16,116,0.7);
 }
@@ -334,14 +346,13 @@ footer {
    
 }
 @media only screen and (max-width: 660px) {
-    #banner-missin-heading {
+    #banner-mission-heading {
         font-size: 2em;
     }
     #our-cars-wrapper  {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;   
     }
     #our-cars-div {
         margin: 0;
@@ -373,9 +384,8 @@ footer {
         width: 250px;
         height: 200px;
     }
-    /* .car-images {
-        width: 12em;
-        height: 8em; 
-    
-    } */
+    .car-images {
+        width: 17em;
+        height: 13.5em; 
+    }
 }

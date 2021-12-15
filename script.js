@@ -9,14 +9,11 @@ const openMobileMenu = () => {
     menuOpenIcon.style.display = 'none';
     mobileMenu.style.display ='block'; 
     navbarMobile.style.display ='block';
-    mobileMenuIconLogoWrapper.style.opacity = '0.3';
-    main.style.background.opacity = '0.3';
 }
 const closeMobileMenu = () => {
     mobileMenu.style.display = 'none';
     menuOpenIcon.style.display = 'block';
-    mobileMenuIconLogoWrapper.style.opacity = '1';
-    main.style.background.opacity = '1';
+
 
 }
 menuOpenIcon.addEventListener('click', openMobileMenu);
