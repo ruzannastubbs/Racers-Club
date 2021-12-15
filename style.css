@@ -149,7 +149,7 @@ header {
 }
 
 /* our cars section */
-main {
+#main-section {
     height: auto;
     background-color: rgb(245, 237, 176); 
 }

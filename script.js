@@ -2,7 +2,7 @@ let menuOpenIcon = document.getElementById('mobile-menu-icon');
 let menuCloseIcon = document.getElementById('mobile-close-icon');
 let mobileMenu = document.getElementById('mobile-menu');
 let navbarMobile = document.getElementById('navbar-mobile');
-let main =document.getElementById('main');
+let main =document.getElementById('main-section');
 let mobileMenuIconLogoWrapper = document.getElementById('mobile-menu-icon-logo-wrapper');
 
 const openMobileMenu = () => {
