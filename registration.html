@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			background-color: #ccaf0d;
+		}
+		form {
+			width: 100%;
+			height: 55em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			border-radius: .3em;
+			background-color: #fff;
+		}
+		.container {
+			width: 90%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			line-height: 1.6;
+			border: .5em solid  #9c8608;
+			background-color: #fff;
+			border-radius: .3em;
+		}
+		h1 {
+			color: #9c8608;
+			font-weight: 600;
+			letter-spacing: .1em;
+			margin-top: 1em;
+			background-color: #fff;
+		}
+		p {
+			font-size: 1.2em;
+			padding: 0;
+			margin: 0;
+			background-color: #fff;
+		}
+		label {
+			font-size: 1.1em;
+			font-weight: 700;
+			color: #9c8608;
+			justify-self: center;
+			align-self: center;
+			margin-top: .2em;
+			background-color: #fff;
+		}
+		input {
+			width: 30%;
+			height: 2em;
+			border: 2px solid #000;
+			border-radius: .3em;
+			background-color: #fff;
+		}
+		.clearfix, button, a, label b {
+			background-color: #fff;
+
+		}
+		.clearfix {
+			padding-bottom: .7em;
+		}
+		button {
+			padding: .3em;
+			border-radius: .3em;
+			font-size: 1.1em;
+			color: #9c8608;
+		}
+		button:hover {
+			color: #fff;
+			background-color: #9c8608;
+		}
+		@media only screen and (max-width: 1000px){
+			input {
+				width: 45%;
+			}
+		}
+		@media only screen and (max-width: 700px){
+			input {
+				width: 60%;
+			}
+		}
+		@media only screen and (max-width: 400px){
+			input {
+				width: 75%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+<form action="file.php" method="POST" id="formCont">
+  <div class="container">
+    <h1>Create an Account</h1>
+    <p>Please fill in this form to create an account.</p>
+    <label for="name"><b>Name</b></label>
+	<input type="text" placeholder="Name" name="name">
+		
+    <label for="surname"><b>Surname</b></label>
+	<input type="text" placeholder="Surname" name="surname">
+
+    <label for="surname"><b>Date of Birth</b></label>
+	<input type="date" name="date of birth">
+
+	<label for="surname"><b>Drivers licence number</b></label>	
+	<input type="text" placeholder="Drivers licence number" name="Drivers licence number">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="reset" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

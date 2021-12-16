@@ -17,26 +17,37 @@ header {
     z-index: 2;
 
 }
-.navbar-desktop {
+#navbar-desktop {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar-desktop ul {
-    width: 65%;
+#navbar-desktop #ul-one {
+    width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-.navbar-desktop ul li >a{
+#navbar-desktop #ul-one li >a{
     padding: .7em;
     font-size: 1.5em;
     color: #fff;
 }
-.navbar-desktop ul li a:hover{
+#navbar-desktop #ul-one li a:hover{
     color: #080808;
     border-radius: .8em;
+}
+#navbar-desktop #ul-two {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-desktop #ul-two li > a{
+    padding: .1em;
+    font-size: 1.1em;
+    color: rgb(20, 17, 1);
 }
 .logo{
     width: 7.5em;
@@ -137,8 +148,7 @@ header {
     font-size: 1.5em;
     border-radius: .3em;
     text-shadow: 2px 2px 2px rgba(16, 31, 116, 0.7);
-    border-bottom: 2px solid rgb(162, 171, 189);
-    border-right: 2px solid  rgb(162, 171, 189);
+    border: 2px solid rgb(162, 171, 189);
     z-index: 1;
 }
 #join-btn:hover {
@@ -329,8 +339,11 @@ footer {
 }
 @media only screen and (max-width: 985px){
    
-    .navbar-desktop {
+    #navbar-desktop {
         display: none;
+    }
+    #ul-two {
+        display: block;
     }
     #mobile-menu-icon {
         display: block;
