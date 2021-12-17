@@ -14,22 +14,21 @@
         <div id="menu-icon-wrapper">
             <img id="mobile-menu-icon" src="https://img.icons8.com/material-sharp/50/000000/menu--v3.png"/>
         </div>
-        <div id="mobile-race-track">
-            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-race-snowboarding-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
-        </div>
         <div id="mobile-logo-wrapper">
             <img id="mobile-logo" class="logo" src="images/logo.jpg" alt="logo">
         </div>
-    </div>
-    <div id="mobile-menu">
-      <nav id="navbar-mobile">
+        <div id="mobile-signin-wrapper">
+            <a href="#" id="mobile-login" class="logIn">Log In</a>
+        </div>
+      </div>
+      <div id="mobile-menu">
+        <nav id="navbar-mobile">
          <img id="mobile-close-icon" src="https://img.icons8.com/material-rounded/48/000000/delete-sign.png"/>
           <ul>
             <a href="#"><li>My Account</li></a>
             <a href="#"><li>Race Cars</li></a>
             <a href="#"><li>Location</li></a>
             <a href="#"><li>Events</li></a>
-            <a href="#"><li style="color: brown">Sign In</li></a>
             </ul>
          </nav>
         </div>
@@ -42,10 +41,35 @@
             <li><a href="#">Events</a></li>
         </ul>
         <ul id="ul-two">
-            <li><a href="#">Sign In</a></li> 
+            <li><a href="#" class="logIn">Log In</a></li> 
         </ul>
     </nav>
 </header>
+<!--start popover login -->
+  <form id="form-content" action="file.php">
+
+ <img id="form-close-icon" src="https://img.icons8.com/material-rounded/48/000000/delete-sign.png"/>
+    <div class="login-container">
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" id="form-logIn">Login</button>
+      <label>
+        <input id="checkbox" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+
+      <div class="forgot-password-container">
+      <button type="reset" class="cancel-btn">Cancel</button>
+      <span>Forgot <a href="#" class="psw">password?</a></span>
+    </div>
+   </div>
+  </form>
+
+<!-- end popover login -->
+
 <main id="main-section">
     <!-- banner section -->
      <div id="banner">

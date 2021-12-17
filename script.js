@@ -2,7 +2,7 @@ let menuOpenIcon = document.getElementById('mobile-menu-icon');
 let menuCloseIcon = document.getElementById('mobile-close-icon');
 let mobileMenu = document.getElementById('mobile-menu');
 let navbarMobile = document.getElementById('navbar-mobile');
-let main =document.getElementById('main-section');
+let mainSection = document.getElementById('main-section');
 let mobileMenuIconLogoWrapper = document.getElementById('mobile-menu-icon-logo-wrapper');
 
 
@@ -14,43 +14,27 @@ const openMobileMenu = () => {
 const closeMobileMenu = () => {
     mobileMenu.style.display = 'none';
     menuOpenIcon.style.display = 'block';
-
-
 }
 menuOpenIcon.addEventListener('click', openMobileMenu);
-
 menuCloseIcon.addEventListener('click', closeMobileMenu);
-
-main.addEventListener('click', closeMobileMenu);
+mainSection.addEventListener('click', closeMobileMenu);
 
 menuOpenIcon.addEventListener('keydown', function(e) {
-
     if (e.key === 'Enter') {
-
         openMobileMenu();
-
     }
-
 });
 
 menuCloseIcon.addEventListener('keydown', function(e) {
-
     if (e.key === 'Enter') {
-
         closeMobileMenu();
-
     }
-
 });
 
-main.addEventListener('keydown', function(e) {
-
+mainSection.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
-
         closeMobileMenu();
-
     }
-
 });
 window.addEventListener('resize', myFunction);
 function myFunction(){
@@ -61,7 +45,6 @@ function myFunction(){
     else{
         mobileMenu.style.display = 'none';
         menuOpenIcon.style.display = 'block';
-
     }
 }
 // cars section
@@ -84,13 +67,11 @@ const openCarsDiv = () => {
     
 }
 const closeCarsDiv = () => {
-   
     ourCarsDivTwo.style.display = 'none';
     more.style.display = 'block';
     moreWrapper.style.display = 'block';
     less.style.display = 'none';
-    lessWrapper.style.display = 'none';
-    
+    lessWrapper.style.display = 'none';  
     document.body.scrollTop = 530;  // For Safari
     document.documentElement.scrollTop = 530; // Chrome, Firefox, IE and Opera places the overflow at the html level, unless else is specified. Therefore, we use the documentElement property for these browsers
 }
@@ -98,3 +79,42 @@ const closeCarsDiv = () => {
 more.addEventListener('click', openCarsDiv);
 less.addEventListener('click', closeCarsDiv);
 
+// popover login window
+
+let formContent = document.getElementById('form-content');
+let logInBtn = document.getElementsByClassName('logIn');
+let formCloseIcon = document.getElementById('form-close-icon');
+
+
+const openLogInForm = () => {
+    formContent.style.display = 'block'; 
+ }
+
+for (let i = 0; i < logInBtn.length; i++) {
+    let loginButton = logInBtn[i];
+    loginButton.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            openLogInForm();
+        }
+    });
+    
+loginButton.addEventListener('click', openLogInForm); 
+ }  
+
+const closeLogInForm = () => {
+    formContent.style.display = 'none'; 
+}
+formCloseIcon.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        closeLogInForm();
+    }
+});
+formCloseIcon.addEventListener('click', closeLogInForm);
+
+
+mainSection.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        closeLogInForm();
+    }
+});
+mainSection.addEventListener('click', closeLogInForm);
