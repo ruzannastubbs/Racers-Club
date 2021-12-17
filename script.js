@@ -17,7 +17,7 @@ const closeMobileMenu = () => {
 }
 menuOpenIcon.addEventListener('click', openMobileMenu);
 menuCloseIcon.addEventListener('click', closeMobileMenu);
-mainSection.addEventListener('click', closeMobileMenu);
+
 
 menuOpenIcon.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
@@ -31,11 +31,7 @@ menuCloseIcon.addEventListener('keydown', function(e) {
     }
 });
 
-mainSection.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-        closeMobileMenu();
-    }
-});
+
 window.addEventListener('resize', myFunction);
 function myFunction(){
     if(window.innerWidth == '853'){
@@ -115,6 +111,8 @@ formCloseIcon.addEventListener('click', closeLogInForm);
 mainSection.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
         closeLogInForm();
+        closeMobileMenu();
     }
 });
 mainSection.addEventListener('click', closeLogInForm);
+mainSection.addEventListener('click', closeMobileMenu);
