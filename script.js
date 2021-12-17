@@ -91,6 +91,7 @@ for (let i = 0; i < logInBtn.length; i++) {
     loginButton.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             openLogInForm();
+            mainSection.style.visibility = 'blur';
         }
     });
     
