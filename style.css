@@ -69,12 +69,12 @@ header {
     align-items: flex-start;
     padding: 1em;
     /* border: 1px solid rgba(185, 126, 126, 0.705); */
-    background: #ffa34d linear-gradient(
+    background:  #e4b92b linear-gradient(
         to bottom,
-        #ffa34d,
-        #df954f calc(50% - 15px),
-        #d18b49 calc(50% + 15px),
-        #e2a267);
+        #9c8e0c,
+        #b1a00b calc(50% - 15px),
+        #babd09 calc(50% + 15px),
+        #bfcc0d);
     position: absolute;
     top: 0;
     z-index: 10;
